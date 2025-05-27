@@ -1,5 +1,5 @@
 import { WebSocketServer } from 'ws';
-import { randomInt } from 'crypto'; // Используем криптографически безопасный RNG
+import { randomInt } from 'crypto'; 
 import bigInt from 'big-integer';
 
 var wss = new WebSocketServer({ port: 8080 });
